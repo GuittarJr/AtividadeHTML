@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+}
+.cardWrapper{
+    display: flex;
+    height: 240px;
+    justify-content: space-evenly;
+    
+    .card{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        img{
+            height: 100%;
+        }
+    }
+}
